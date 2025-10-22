@@ -58,8 +58,8 @@ if (isset($_POST['add'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'pharfind@gmail.com';
-            $mail->Password = 'stag hgcx gvxm irwd';
+            $mail->Username = '';
+            $mail->Password = '';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
             $mail->CharSet = 'UTF-8';
@@ -71,7 +71,7 @@ if (isset($_POST['add'])) {
                 ]
             ];
 
-            $mail->setFrom('pharfind@gmail.com', 'ICF');
+            $mail->setFrom('', 'ICF');
             $mail->addAddress($directeur['email']);
             $mail->isHTML(true);
             $mail->Subject = "📝 Nouveau stage ajouté - Service " . $directeur['nom_service'];
