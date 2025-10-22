@@ -1,0 +1,1028 @@
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-46fab36ed3bsm22336665e9.0 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-46fab36ed3bsm22336665e9.0 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<ilyesrejeb12@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-46fab36ed3bsm22336665e9.0 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-46fab36ed3bsm22336665e9.0 - gsmtp
+
+CLIENT -> SERVER: Date: Wed, 8 Oct 2025 20:22:53 +0000
+
+CLIENT -> SERVER: To: ilyesrejeb12@gmail.com
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <pyHqWR4JsrDqHaPQC888hpfJ0fH4QRSMtUBxUxlgYo@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>test test</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-08</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-11-14</strong> au <strong>2025-12-18</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1759954987 5b1f17b1804b1-46fab36ed3bsm22336665e9.0 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-46fab36ed3bsm22336665e9.0 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-46faf16abf6sm13359075e9.12 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-46faf16abf6sm13359075e9.12 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<rejeb424@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-46faf16abf6sm13359075e9.12 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-46faf16abf6sm13359075e9.12 - gsmtp
+
+CLIENT -> SERVER: Date: Wed, 8 Oct 2025 20:24:25 +0000
+
+CLIENT -> SERVER: To: rejeb424@gmail.com
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <R2xs5woPu7tEkKzhAXZ4TQSscWZZC7WZZvYNbrNdxw@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>Khadija Ait</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-08</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-10-14</strong> au <strong>2025-10-31</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1759955076 5b1f17b1804b1-46faf16abf6sm13359075e9.12 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-46faf16abf6sm13359075e9.12 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-46fa9d4c8c5sm50329845e9.11 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-46fa9d4c8c5sm50329845e9.11 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<rejeb424@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-46fa9d4c8c5sm50329845e9.11 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-46fa9d4c8c5sm50329845e9.11 - gsmtp
+
+CLIENT -> SERVER: Date: Wed, 8 Oct 2025 20:26:06 +0000
+
+CLIENT -> SERVER: To: rejeb424@gmail.com
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <HrFkOVxKGQ64vyt1I3BMmwameu4yMpPv9T8DIazb4@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>Khadija Ait</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-08</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-10-14</strong> au <strong>2025-10-31</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1759955177 5b1f17b1804b1-46fa9d4c8c5sm50329845e9.11 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-46fa9d4c8c5sm50329845e9.11 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-b55d900e2bcsm41055866b.64 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.231.172]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-b55d900e2bcsm41055866b.64 - gsmtp
+
+SMTP ERROR: Password command failed: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-b55d900e2bcsm41055866b.64 - gsmtp
+
+SMTP Error: Could not authenticate.
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-b55d900e2bcsm41055866b.64 - gsmtp
+
+SMTP Error: Could not authenticate.
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-46fab36cc32sm85119395e9.0 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.152.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.152.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-46fab36cc32sm85119395e9.0 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<ahmed.thabet@isimg.tn>
+
+SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-46fab36cc32sm85119395e9.0 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-46fab36cc32sm85119395e9.0 - gsmtp
+
+CLIENT -> SERVER: Date: Sat, 11 Oct 2025 14:04:52 +0000
+
+CLIENT -> SERVER: To: ahmed.thabet@isimg.tn
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <GNGVz1DBqbBhHQSyK7PGfr3xrr6qWzwWHsqHBO7HSs@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>ahmed thabet</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-11</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-10-22</strong> au <strong>2025-10-24</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1760191494 5b1f17b1804b1-46fab36cc32sm85119395e9.0 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-46fab36cc32sm85119395e9.0 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP ffacd0b85a97d-426dac0ab7bsm216881f8f.46 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.152.161]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [197.25.152.161]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK ffacd0b85a97d-426dac0ab7bsm216881f8f.46 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jihed.benbelgacem@isimg.tn>
+
+SERVER -> CLIENT: 250 2.1.5 OK ffacd0b85a97d-426dac0ab7bsm216881f8f.46 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead ffacd0b85a97d-426dac0ab7bsm216881f8f.46 - gsmtp
+
+CLIENT -> SERVER: Date: Sat, 11 Oct 2025 14:07:41 +0000
+
+CLIENT -> SERVER: To: jihed.benbelgacem@isimg.tn
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <1opb18ZvRk4egnTDmotc1DkzjskvTSYTBxScLNYuz7o@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>jihed ben belgacem</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-11</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-10-11</strong> au <strong>2025-11-09</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1760191663 ffacd0b85a97d-426dac0ab7bsm216881f8f.46 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection ffacd0b85a97d-426dac0ab7bsm216881f8f.46 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-46fb489ad27sm245882445e9.15 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [41.229.90.254]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [41.229.90.254]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-46fb489ad27sm245882445e9.15 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<ahmed.thabet@isimg.tn>
+
+SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-46fb489ad27sm245882445e9.15 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-46fb489ad27sm245882445e9.15 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 14 Oct 2025 15:36:31 +0000
+
+CLIENT -> SERVER: To: ahmed.thabet@isimg.tn
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <YpRFFqe3JeRyJOn9EEpCfG2pmr3RlOH9WDIk9aUAI@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>ahmed thabet</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-14</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-10-30</strong> au <strong>2025-10-31</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1760456192 5b1f17b1804b1-46fb489ad27sm245882445e9.15 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-46fb489ad27sm245882445e9.15 - gsmtp
+
+SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-46fb49be017sm241575855e9.13 - gsmtp
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [41.229.90.254]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: STARTTLS
+
+SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+CLIENT -> SERVER: EHLO localhost
+
+SERVER -> CLIENT: 250-smtp.gmail.com at your service, [41.229.90.254]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+CLIENT -> SERVER: AUTH LOGIN
+
+SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+CLIENT -> SERVER: [credentials hidden]
+SERVER -> CLIENT: 235 2.7.0 Accepted
+
+CLIENT -> SERVER: MAIL FROM:<pharfind@gmail.com>
+
+SERVER -> CLIENT: 250 2.1.0 OK 5b1f17b1804b1-46fb49be017sm241575855e9.13 - gsmtp
+
+CLIENT -> SERVER: RCPT TO:<jihed.benbelgacem@isimg.tn>
+
+SERVER -> CLIENT: 250 2.1.5 OK 5b1f17b1804b1-46fb49be017sm241575855e9.13 - gsmtp
+
+CLIENT -> SERVER: DATA
+
+SERVER -> CLIENT: 354 Go ahead 5b1f17b1804b1-46fb49be017sm241575855e9.13 - gsmtp
+
+CLIENT -> SERVER: Date: Tue, 14 Oct 2025 15:37:09 +0000
+
+CLIENT -> SERVER: To: jihed.benbelgacem@isimg.tn
+
+CLIENT -> SERVER: From: ICF - Suivi des Stagiaires <pharfind@gmail.com>
+
+CLIENT -> SERVER: Subject: Notification d'absence - ICF
+
+CLIENT -> SERVER: Message-ID: <NR9liTVwZq5rpWZUbYxZkNjqB8nrp3dXbGen1pFfxKk@localhost>
+
+CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+CLIENT -> SERVER: MIME-Version: 1.0
+
+CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER:                     <html>
+
+CLIENT -> SERVER:                     <head>
+
+CLIENT -> SERVER:                         <style>
+
+CLIENT -> SERVER:                             body { font-family: Arial, sans-serif; background-color: #f5f6f8; margin: 0; padding: 0; }
+
+CLIENT -> SERVER:                             .container { max-width: 600px; background: #fff; margin: 30px auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+
+CLIENT -> SERVER:                             .header { background: #046818; color: #fff; text-align: center; padding: 20px; font-size: 20px; }
+
+CLIENT -> SERVER:                             .body { padding: 25px; color: #333; font-size: 16px; }
+
+CLIENT -> SERVER:                             .notice { background: #f8d7da; color: #721c24; padding: 15px; border-left: 5px solid #f44336; border-radius: 4px; margin: 20px 0; }
+
+CLIENT -> SERVER:                             .footer { background: #f1f1f1; text-align: center; padding: 10px; font-size: 14px; color: #555; }
+
+CLIENT -> SERVER:                         </style>
+
+CLIENT -> SERVER:                     </head>
+
+CLIENT -> SERVER:                     <body>
+
+CLIENT -> SERVER:                         <div class='container'>
+
+CLIENT -> SERVER:                             <div class='header'>ICF - Notification de Présence</div>
+
+CLIENT -> SERVER:                             <div class='body'>
+
+CLIENT -> SERVER:                                 <p>Bonjour <strong>jihed ben belgacem</strong>,</p>
+
+CLIENT -> SERVER:                                 <div class='notice'>
+
+CLIENT -> SERVER:                                     Vous avez été marqué(e) comme <strong>absent(e)</strong> le <strong>2025-10-14</strong>.
+
+CLIENT -> SERVER:                                 </div>
+
+CLIENT -> SERVER:                                 <p>Votre période de stage : du <strong>2025-10-11</strong> au <strong>2025-11-09</strong>.</p>
+
+CLIENT -> SERVER:                                 <p>Merci de justifier cette absence dès que possible.</p>
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                             <div class='footer'>
+
+CLIENT -> SERVER:                                 Cordialement,<br>L'équipe ICF
+
+CLIENT -> SERVER:                             </div>
+
+CLIENT -> SERVER:                         </div>
+
+CLIENT -> SERVER:                     </body>
+
+CLIENT -> SERVER:                     </html>
+
+CLIENT -> SERVER:                     
+
+CLIENT -> SERVER: 
+
+CLIENT -> SERVER: .
+
+SERVER -> CLIENT: 250 2.0.0 OK  1760456230 5b1f17b1804b1-46fb49be017sm241575855e9.13 - gsmtp
+
+CLIENT -> SERVER: QUIT
+
+SERVER -> CLIENT: 221 2.0.0 closing connection 5b1f17b1804b1-46fb49be017sm241575855e9.13 - gsmtp
+
