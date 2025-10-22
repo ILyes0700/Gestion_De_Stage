@@ -92,8 +92,8 @@ if (isset($_POST['save'])) {
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
                     
-                    $mail->Username = 'pharfind@gmail.com';
-                    $mail->Password = 'stag hgcx gvxm irwd';
+                    $mail->Username = '';
+                    $mail->Password = '';
                     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                     $mail->Port = 587;
                     $mail->CharSet = 'UTF-8';
@@ -107,7 +107,7 @@ if (isset($_POST['save'])) {
                         ]
                     ];
 
-                    $mail->setFrom('pharfind@gmail.com', 'ICF - Suivi des Stagiaires');
+                    $mail->setFrom('', 'ICF - Suivi des Stagiaires');
                     $mail->addAddress($info_etudiant['email']);
                     $mail->isHTML(true);
                     $mail->Subject = "Notification d'absence - ICF";
