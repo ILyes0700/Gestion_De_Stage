@@ -152,12 +152,7 @@ INSERT INTO `etudiants` (`id_etudiant`, `cin`, `delivre_cin`, `nom`, `prenom`, `
 (64, 'CD123456', '0000-00-00', 'Qadiri', 'Hamza', 'hamza.qadiri@email.com', '0652345678', '0529123456', '12 Rue Ibn Batouta, Larache', '1998-11-30', 'Célibataire', 'Marocaine', '0663456789', 'Lycée Tarik Ibn Ziad', 'Bac+2', '2 ans', 'DEUG', '2020-07-22'),
 (65, 'EF234567', '0000-00-00', 'Rahali', 'Kawtar', 'kawtar.rahali@email.com', '0663456789', '0520234567', '3 Avenue de la Plage, Asilah', '1999-03-12', 'Célibataire', 'Marocaine', '0674567890', 'Lycée Al Wahda', 'Bac+3', '3 ans', 'Licence', '2021-06-15'),
 (66, 'GH345678', '0000-00-00', 'Sefrioui', 'Adil', 'adil.sefrioui@email.com', '0674567890', '0521345678', '18 Rue de la Liberté, Tangier', '1997-08-25', 'Célibataire', 'Marocaine', '0685678901', 'Lycée Al Qods', 'Bac+4', '4 ans', 'Master 1', '2022-07-05'),
-(67, 'IJ456789', '0000-00-00', 'Toumi', 'Nabila', 'nabila.toumi@email.com', '0685678901', '0522456789', '6 Avenue Moulay Hassan, Tetouan', '2000-01-08', 'Célibataire', 'Marocaine', '0696789012', 'Lycée Al Massira', 'Bac+5', '5 ans', 'Master 2', '2023-07-15'),
-(91, '03369665', '2025-07-16', 'Ahmed', 'ALi', 'rejeb424@gmail.com', '27704669', '69321658', 'rue farhet', '2025-07-16', 'Célibataire', 'tunisienne', 'kamel', 'chenini / chennini', 'Primaire + Secondaire', '3 / 5', 'Baccalaureat Informatique', '2025-07-16'),
-(94, '85214796', '2025-07-12', 'amine', 'rejeb', 'test7578586@gmail.com', '69321658', '69321658', 'lac2 hay bastyin', '2025-07-08', 'Célibataire', 'tunisienne', 'kamel', 'chenini / chennini', 'Primaire + Secondaire', '3 / 5', 'Baccalaureat Informatique', '2025-07-09'),
-(95, '03369781', '2025-07-24', 'mohmd', 'alowi', 'rejeb424@gmail.com', '69321658', '69321658', 'lac2 hay bastyin', '2025-07-09', 'Célibataire', 'tunisienne', 'kamel', 'chenini / chennini', 'Primaire + Secondaire', '3 / 5', 'Baccalaureat Informatique', '2025-07-25'),
-(97, '11223344', '2024-02-14', 'Rejeb', 'Ilyes', 'ilyesrejeb12@gmail.com', '11111111', '22222222', 'chenini gabes ', '2004-12-07', 'Célibataire', 'tunisienne', 'kamel', 'chenini / chennini', 'Primaire + Secondaire', '3 / 5', 'Baccalaureat Informatique', '2024-06-23'),
-(98, '12345677', '2025-07-22', 'test', 'test', 'ilyesrejeb12@gmail.com', '27704669', '69321658', 'Rue Nooman', '2025-07-01', 'Célibataire', 'tunisienne', 'kamel', 'chenini / gabes', 'Primaire + Secondaire', '3 / 4', 'Baccalaureat Informatique', '2025-07-09');
+(67, 'IJ456789', '0000-00-00', 'Toumi', 'Nabila', 'nabila.toumi@email.com', '0685678901', '0522456789', '6 Avenue Moulay Hassan, Tetouan', '2000-01-08', 'Célibataire', 'Marocaine', '0696789012', 'Lycée Al Massira', 'Bac+5', '5 ans', 'Master 2', '2023-07-15l')
 
 -- --------------------------------------------------------
 
